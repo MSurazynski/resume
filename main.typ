@@ -14,7 +14,7 @@
   [#image("Aero_0097-modified.png", width: 3cm)],
   [
     #v(11pt)
-    #text("Michał Surażyński", size: 25pt, weight: 600)\
+    #text("Michał Surażyński", size: 25pt, weight: 700)\
     #v(0pt)
     Antonie Morostraat 18, 5642AE Eindhoven\
     #text("+31 623531190") |
@@ -49,17 +49,17 @@
 #section("Experience")
 #entry(
   [
-    *Embedded Software Engineer* (_TU/e Aero Student Team_) \
+    *Embedded Software Engineer* _(TU/e Aero Student Team)_ \
     - Developing C++ fault detection and telemetry systems for a physical Battery Swap system using Arduino and Raspberry Pi
     - System monitors current, voltage, temperature and positions for 7 Dynamixel motors
-    - Works within a multidisciplinary team.
+    - Works within a multidisciplinary team
     - Established and maintains a team-wide wiki to organize and centralize documentation
   ],
   [_since 09/2025_],
 )
 #entry(
   [
-    *Calculus Teaching Assistant* (_Technische Universiteit Eindhoven_) \
+    *Calculus Teaching Assistant* _(Technische Universiteit Eindhoven)_ \
     - Organized and conducted weekly sessions for two student groups
     - Explained core mathematical concepts whilst guiding students in problem-solving structured sessions
   ],
