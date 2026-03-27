@@ -14,7 +14,7 @@
   [#image("Aero_0097-modified.png", width: 3cm)],
   [
     #v(11pt)
-    #text("Michał Surażyński", size: 20pt, weight: 600)\
+    #text("Michał Surażyński", size: 25pt, weight: 600)\
     #v(0pt)
     Antonie Morostraat 18, 5642AE Eindhoven\
     #text("+31 623531190") |
