@@ -3,7 +3,7 @@
 )
 #import "@preview/fontawesome:0.6.0": *
 
-#set document(author: "Jonas Pleyer", title: "CV Michał Surażyński")
+#set document(author: "Michal Surazynski", title: "CV Michał Surażyński")
 #show: styling
 #set page(margin: 0.7cm)
 
