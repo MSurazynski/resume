@@ -1,10 +1,12 @@
 #import "@preview/cv-soft-and-hard:0.1.0": (
   cpp, entry, hugo, python, rust, section, styling, subsection, typescript, typst-logo,
 )
+#import "@preview/fontawesome:0.6.0": *
 
 #set document(author: "Jonas Pleyer", title: "CV Michał Surażyński")
 #show: styling
 #set page(margin: 0.7cm)
+
 
 #table(
   columns: (auto, 1fr),
@@ -16,12 +18,12 @@
     #v(11pt)
     #text("Michał Surażyński", size: 25pt, weight: 700)\
     #v(0pt)
-    Antonie Morostraat 18, 5642AE Eindhoven\
-    #text("+31 623531190") |
-    #text("michalsur@hotmail.com") |
-    #link("www.github.com/MSurazynski")[github] |
-    #link("www.linkedin.com/in/michal-surazynski")[linkedin] |
-    #text("English, Polish")
+    #fa-icon("location-dot", size: 8pt) Antonie Morostraat 18, 5642AE Eindhoven\
+    #fa-icon("phone", size: 8pt) #text("+31 623531190") |
+    #fa-icon("envelope", size: 8pt) #text("michalsur@hotmail.com") |
+    #fa-icon("github", size: 8pt) #link("www.github.com/MSurazynski")[github] |
+    #fa-icon("linkedin", size: 8pt) #link("www.linkedin.com/in/michal-surazynski")[linkedin] |
+    #fa-icon("language", size: 8pt) #text("English, Polish")
   ],
 )
 
