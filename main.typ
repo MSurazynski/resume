@@ -4,7 +4,7 @@
 
 #set document(author: "Jonas Pleyer", title: "CV Michał Surażyński")
 #show: styling
-#set page(margin: 0.8cm)
+#set page(margin: 0.7cm)
 
 #table(
   columns: (auto, 1fr),
@@ -19,11 +19,16 @@
     Antonie Morostraat 18, 5642AE Eindhoven\
     #text("+31 623531190") |
     #text("michalsur@hotmail.com") |
-    #link("github.com/MSurazynski") |
+    #link("www.github.com/MSurazynski")[github] |
+    #link("www.linkedin.com/in/michal-surazynski")[linkedin] |
     #text("English, Polish")
-
   ],
 )
+
+#section("About")
+Computer Science student at TU/e focused on low-level systems.
+Experience in contributing to multidisciplinary student team and developing commercial projects.
+Interested in developing reliable and efficient technical systems.
 
 #section("Education")
 #entry(
@@ -53,7 +58,6 @@
     - Developing C++ fault detection and telemetry systems for a physical Battery Swap system using Arduino and Raspberry Pi
     - System monitors current, voltage, temperature and positions for 7 Dynamixel motors
     - Works within a multidisciplinary team
-    - Established and maintains a team-wide wiki to organize and centralize documentation
   ],
   [_since 09/2025_],
 )
@@ -83,9 +87,9 @@
   [
     *Timetable Generator for Kindergartens* \
     - Built a Python desktop app to gather and store kindergarten data and deployed it in a commercial kindergarten
-    - Developed a multi-agent path finding algorithm that prevents collisions by running BFS in time-expanded search.
-    - Implemented reservation-based path allocation system that optimizes overall travel time for all agents.
-    - Exported C code as a python library for simulation and validation purposes.
+    - Used Google OR Tools to generate optimized timetables which reduced scheduling time from 1 day to few minutes
+    - Implemented automatic data export options to both Microsoft Excel and Word
+    - Actively used by a commercial kindergarten
   ],
   [],
 )
