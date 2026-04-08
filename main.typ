@@ -47,11 +47,6 @@ Interested in developing reliable and efficient technical systems.
   ],
 )
 
-// #section("Profile")
-// Computer Science student at TU/e focused on low-level systems, optimization, integrated circuits, and real-world applications. Experience
-// in contributing to multidisciplinary student team, developing projects deployed in commercial setting, and holding leadership position in a
-// large youth organization. Interested in developing reliable and efficient technical systems.
-
 //Experience
 #section("Experience")
 #entry(
@@ -90,7 +85,7 @@ Interested in developing reliable and efficient technical systems.
     *Timetable Generator for Kindergartens* \
     - Built a Python desktop app to gather and store kindergarten data and deployed it in a commercial kindergarten
     - Used Google OR Tools to generate optimized timetables which reduced scheduling time from 1 day to few minutes
-    - Implemented automatic data export options to both Microsoft Excel and Word
+    - Generator also deployed as HTTP API in Google Cloud for future use on the kindergarten website
     - Actively used by a commercial kindergarten
   ],
   [],
