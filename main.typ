@@ -27,10 +27,10 @@
   ],
 )
 
-#section("About")
-Computer Science student at TU/e focused on low-level systems.
-Experience in contributing to multidisciplinary student team and developing commercial projects.
-Interested in developing reliable and efficient technical systems.
+// #section("About")
+// Computer Science student at TU/e focused on low-level systems.
+// Experience in contributing to multidisciplinary student team and developing commercial projects.
+// Interested in developing reliable and efficient technical systems.
 
 #section("Education")
 #entry(
@@ -60,11 +60,11 @@ Interested in developing reliable and efficient technical systems.
 )
 #entry(
   [
-    *Calculus Teaching Assistant* _(Technische Universiteit Eindhoven)_ \
-    - Organized and conducted weekly sessions for two student groups
-    - Explained core mathematical concepts whilst guiding students in problem-solving structured sessions
+    *Student Assistant* _(Technische Universiteit Eindhoven)_ \
+    - Twice involved in Calculus course: organized and coducted weekly instruction sessions for groups of students
+    - Involved in Software Design course: assisted in Q&A and instruction sessions
   ],
-  [_2024, 2024_],
+  [_2024 - 2026_],
 )
 
 //Experience
@@ -82,26 +82,25 @@ Interested in developing reliable and efficient technical systems.
 
 #entry(
   [
-    *Timetable Generator for Kindergartens* \
-    - Built a Python desktop app to gather and store kindergarten data and deployed it in a commercial kindergarten
-    - Used Google OR Tools to generate optimized timetables which reduced scheduling time from 1 day to few minutes
-    - Generator also deployed as HTTP API in Google Cloud for future use on the kindergarten website
-    - Actively used by a commercial kindergarten
+    *Kindergarten Scheduling System and Website* \
+    - Designed and developed a production website for a commercial kindergarten using React, TailwindCSS, Firebase, and Google Cloud
+    - Built an optimized timetable generation system using Google OR-Tools, reducing scheduling time from approximately one day to a few minutes
+    - Migrated the scheduler from a Python desktop application to an HTTP API deployed with Google Cloud Functions for integration with the kindergarten website
+    - Implemented responsive frontend, database integration, and CI/CD pipeline
+    - Deployed and maintained a system actively used by a commercial kindergarten
   ],
   [],
 )
 
 #entry(
   [
-    *Kindergarten Website* \
-    - Designed and developed a production website using React, TailwindCSS, and Firebase backend services
-    - Implemented responsive frontend, backend and a database
-    - Implemented CI/CD pipeline
-    - Deployed and actively used by a commercial kindergarten
+    *DisplayPi — Raspberry Pi E-Paper Dashboard* \
+    - Building a dashboard and image display system for an e-ink display on Raspberry Pi 5
+    - Implemented local Python workflows using uv and just for generating different dashboards
+    - Containerized the application with Docker with Raspberry Pi hardware integration
   ],
   [],
 )
-
 
 #section("Skills")
 #table(
