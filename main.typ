@@ -52,7 +52,7 @@
 #entry(
   [
     *Embedded Software Engineer* _(TU/e Aero Student Team)_ \
-    - Developing C++ fault detection and telemetry systems for a physical Battery Swap system using Arduino and Raspberry Pi
+    - Developing C++ fault detection and telemetry systems for a physical Battery Swap system using Arduino and Raspberry Pi communicating via MQTT
     - System monitors current, voltage, temperature and positions for 7 Dynamixel motors
     - Works within a multidisciplinary team
   ],
@@ -61,7 +61,7 @@
 #entry(
   [
     *Student Assistant* _(Technische Universiteit Eindhoven)_ \
-    - Twice involved in Calculus course: organized and coducted weekly instruction sessions for groups of students
+    - Involved twice in Calculus course: organized and conducted weekly instructions for 20 students
     - Involved in Software Design course: assisted in Q&A and instruction sessions
   ],
   [_2024 - 2026_],
@@ -95,9 +95,9 @@
 #entry(
   [
     *DisplayPi — Raspberry Pi E-Paper Dashboard* \
-    - Building a dashboard and image display system for an e-ink display on Raspberry Pi 5
-    - Implemented local Python workflows using uv and just for generating different dashboards
-    - Containerized the application with Docker with Raspberry Pi hardware integration
+    - Build a dashboard and image display system for an e-ink display on Raspberry Pi
+    - Implemented workflows using uv and just for generating different dashboards
+    - Containerized the application with Docker
   ],
   [],
 )
@@ -112,5 +112,5 @@
   inset: (left: 0pt, top: 2pt),
   text("Languages", weight: 600), [C, C++, Java, Python, Javascript],
   text("Systems / Embedded", weight: 600), [Linux, Arduino, Raspberry Pi],
-  text("Tools", weight: 600), [Git, Cadence],
+  text("Tools", weight: 600), [Git, Docker, Cadence, Neovim, VSCode],
 )
