@@ -27,20 +27,14 @@
   ],
 )
 
-// #section("About")
-// Computer Science student at TU/e focused on low-level systems.
-// Experience in contributing to multidisciplinary student team and developing commercial projects.
-// Interested in developing reliable and efficient technical systems.
-
 #section("Education")
 #entry(
   [
-    *Technische Universiteit Eindhoven*\
-    _Bachelor of Computer Science and Engineering_ \
+    *Technische Universiteit Eindhoven*  (_Bachelor of Computer Science and Engineering_) \
     - GPA: 8.2
-    - Elective courses in Integrated Circuit Design
     - Third year student
     - Recipient of TU/e High Potential Bachelor’s Scholarship
+    - Elective courses in Integrated Circuit Design
   ],
   [
     _since 09/2023_\
@@ -52,9 +46,10 @@
 #entry(
   [
     *Embedded Software Engineer* _(TU/e Aero Student Team)_ \
-    - Developing C++ fault detection and telemetry systems for a physical Battery Swap system using Arduino and Raspberry Pi communicating via MQTT
-    - System monitors current, voltage, temperature and positions for 7 Dynamixel motors
-    - Works within a multidisciplinary team
+    - Developing C++ fault detection and telemetry systems for a Battery Swap system using Arduino and Raspberry Pi
+    - System monitors current, voltage, temperature and positions for 7 Dynamixel monitors
+    - Developing a Rust communication layer running on Raspberry Pis aboard a drone and a ground vehicle, connecting their ArduPilot flight controllers (Cube Orange) via MAVLink and linking the two vehicles over SiK telemetry radios
+    - Working within a multidisciplinary team with around 30 CS, DS, ME, EE students
   ],
   [_since 09/2025_],
 )
@@ -72,10 +67,10 @@
 #entry(
   [
     *Multi-agent Path Planning for Airport Luggage* \
-    - Built a graph model of an airport luggage system using C without external libraries
-    - Developed a multi-agent path finding algorithm that prevents collisions by running BFS in time-expanded search.
+    - Built a graph model of an airport luggage system using C for Raspberry Pi Pico
+    - Developed a multi-agent path finding algorithm that prevents collisions by running BFS in time-expanded search
     - Implemented reservation-based path allocation system that optimizes overall travel time for all agents
-    - Exported C code as a python library for simulation and validation purposes
+    - Exported C code as a python library for testing
   ],
   [_09/2025 - 11/2025_],
 )
@@ -84,10 +79,9 @@
   [
     *Kindergarten Scheduling System and Website* \
     - Designed and developed a production website for a commercial kindergarten using React, TailwindCSS, Firebase, and Google Cloud
-    - Built an optimized timetable generation system using Google OR-Tools, reducing scheduling time from approximately one day to a few minutes
-    - Migrated the scheduler from a Python desktop application to an HTTP API deployed with Google Cloud Functions for integration with the kindergarten website
-    - Implemented responsive frontend, database integration, and CI/CD pipeline
-    - Deployed and maintained a system actively used by a commercial kindergarten
+    - Built a timetable generation service using Google OR-Tools, reducing time needed to create a schedule from few days to few minutes
+    - Deployed the timetable generation system as HTTP API with Google Cloud Functions 
+    - System is actively used by a commercial kindergarten
   ],
   [_Since 2025_],
 )
@@ -95,9 +89,8 @@
 #entry(
   [
     *DisplayPi — Raspberry Pi E-Paper Dashboard* \
-    - Build a dashboard and image display system for an e-ink display on Raspberry Pi
-    - Implemented workflows using uv and just for generating different dashboards
-    - Containerized the application with Docker
+    - Build a dashboard and image display system for an e-ink display on Raspberry Pi with python
+    - Implemented workflows for generating different dashboards, and containerized the application with Docker
   ],
   [_since 03/2026_],
 )
@@ -110,7 +103,7 @@
   row-gutter: 0pt,
   column-gutter: 5pt,
   inset: (left: 0pt, top: 2pt),
-  text("Languages", weight: 600), [C, C++, Java, Python, Javascript],
+  text("Languages", weight: 600), [C, C++, Rust, Java, Python, Javascript],
   text("Systems / Embedded", weight: 600), [Linux, Arduino, Raspberry Pi],
-  text("Tools", weight: 600), [Git, Docker, Cadence, Neovim, VSCode],
+  text("Tools", weight: 600), [Git, Docker, Cadence],
 )
