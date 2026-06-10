@@ -77,7 +77,7 @@
     - Implemented reservation-based path allocation system that optimizes overall travel time for all agents
     - Exported C code as a python library for simulation and validation purposes
   ],
-  [],
+  [_09/2025 - 11/2025_],
 )
 
 #entry(
@@ -89,7 +89,7 @@
     - Implemented responsive frontend, database integration, and CI/CD pipeline
     - Deployed and maintained a system actively used by a commercial kindergarten
   ],
-  [],
+  [_Since 2025_],
 )
 
 #entry(
@@ -99,7 +99,7 @@
     - Implemented workflows using uv and just for generating different dashboards
     - Containerized the application with Docker
   ],
-  [],
+  [_since 03/2026_],
 )
 
 #section("Skills")
