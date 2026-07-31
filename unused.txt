@@ -1,0 +1,11 @@
+#entry(
+  [
+    *Multi-agent Path Planning for Airport Luggage* \
+    - Built a graph model of an airport luggage system using C for Raspberry Pi Pico
+    - Developed a multi-agent path finding algorithm that prevents collisions by running BFS in time-expanded search
+    - Implemented reservation-based path allocation system that optimizes overall travel time for all agents
+    - Exported C code as a python library for testing
+  ],
+  [_09/2025 - 11/2025_],
+)
+
