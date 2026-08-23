@@ -45,7 +45,7 @@
 //  Reproduces the template's `section()` function.
 // ---------------------------------------------------------------------------
 #let section(title) = {
-  v(11pt)                      // <- space ABOVE each section header
+  v(6pt)                       // <- space ABOVE each section header
   block(below: 0.9em)[         // <- space BELOW the header, before content
     #grid(
       columns: (auto, 1fr),
@@ -91,14 +91,19 @@
     #v(11pt)
     #text("Michał Surażyński", size: 25pt, weight: 700)\
     #v(0pt)
-    #fa-icon("location-dot", size: 8pt) Antonie Morostraat 18, 5642AE Eindhoven\
-    #fa-icon("phone", size: 8pt) #text("+31 623531190") |
-    #fa-icon("envelope", size: 8pt) #text("michalsur@hotmail.com") |
-    #fa-icon("github", size: 8pt) #link("https://www.github.com/MSurazynski")[github] |
-    #fa-icon("linkedin", size: 8pt) #link("https://www.linkedin.com/in/michal-surazynski")[linkedin] |
-    #fa-icon("language", size: 8pt) #text("English, Polish")
+    #text("Software Enginner | C++", size: 15pt, weight: 550) \
+    #v(0pt)
+    #text("Eindhoven, NL") |
+    #text("+31 623531190") |
+    #text("michalsur@hotmail.com") |
+    #link("https://www.github.com/MSurazynski")[github] |
+    #link("https://www.linkedin.com/in/michal-surazynski")[linkedin] |
+    #text("English, Polish")
   ],
 )
+
+#v(2pt)
+#text(style: "italic", size: 12pt, weight: 500)[Embedded and C++ software engineer, TU/e cum laude, with production experience at Philips and at a multidisciplinary drone student team.] \
 
 // ===========================================================================
 //  EDUCATION
@@ -184,5 +189,7 @@
   inset: (left: 0pt, top: 2pt),
   text("Languages", weight: 600), [C, C++, Rust, Java, Python, JavaScript],
   text("Systems / Embedded", weight: 600), [Linux, Arduino, Raspberry Pi],
+  text("Testing", weight: 600), [GoogleTest, GoogleMock, pytest, unit & component testing],
   text("Tools", weight: 600), [Git, Docker],
+  text("Other", weight: 600), [Agile, Scrum],
 )
