@@ -91,7 +91,7 @@
     #v(11pt)
     #text("Michał Surażyński", size: 25pt, weight: 700)\
     #v(0pt)
-    #text("Software Enginner | C++", size: 15pt, weight: 550) \
+    #text("Software Engineer | C++", size: 15pt, weight: 550) \
     #v(0pt)
     #text("Eindhoven, NL") |
     #text("+31 623531190") |
@@ -136,7 +136,7 @@
 #entry(
   [
     *Embedded Software Engineer* _(TU/e Aero Student Team)_ \
-    - Developed C++ fault detection and telemetry system for a Battery Swap system that monitors current, voltage, temperature and positions for 7 Dynamixel monitors using RPi and Arduino
+    - Developed C++ fault detection and telemetry system for a Battery Swap system that monitors current, voltage, temperature and positions for 7 Dynamixel motors using RPi and Arduino
     - Worked on Rust communication layer running on RPis aboard a drone and a car, connecting their ArduPilot flight controllers (Cube Orange) via MAVLink and linking the two vehicles over SiK telemetry radios
     - Worked within a multidisciplinary team with around 30 CS, DS, ME, EE students
   ],
@@ -170,7 +170,7 @@
 #entry(
   [
     *DisplayPi — Raspberry Pi E-Paper Dashboard* \
-    - Build a dashboard and image display system for an e-ink display on Raspberry Pi with python
+    - Built a dashboard and image display system for an e-ink display on Raspberry Pi with python
     - Implemented workflows for generating different dashboards, and containerized the application with Docker
   ],
   [_since 03/2026_],
